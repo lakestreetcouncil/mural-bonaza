@@ -154,10 +154,10 @@
               // For example: e.features[0].properties.Name is retrieving information from the field Name in the original CSV.
              
               var description =
-              `<h3>` + e.features[0].properties.address + `</h3>` + 
-              `<h4>` + e.features[0].properties.business + `</h4>` +
-              `<h5>` + e.features[0].properties.artist + `</h4>` +
-              `<h5>` + e.features[0].properties.installation + `</h4>`;
+              `<h3>` + e.features[0].properties.address + `</h3>` +
+              `<h4>` + `Current Business: ` + e.features[0].properties.business + `</h4>` +
+              `<h5>` + `Artist: ` + e.features[0].properties.artist + `</h4>` +
+              `<h5>` + `Installation date: ` + `e.features[0].properties.installation + `</h4>`;
               
               
                 
